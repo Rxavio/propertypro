@@ -1,0 +1,110 @@
+@media only screen and (min-width: 150px) and (max-width: 700px) {
+    .body{
+     font-size: 100%;
+    }
+
+
+.mainheader img{
+                                
+    margin-left: 40%;
+ }
+ .mainheader nav{
+     height: 270px;
+ }
+ .mainheader nav ul{
+     padding-left: 0;
+     
+ }
+ .mainheader nav ul li{
+     width: 100%;
+     text-align: center;
+ }
+ .mainheader nav a:link, .mainheader nav a:visited{
+     
+    
+     height: 20px;
+     display: block;
+ }
+
+ .container{
+    width: 100%;  
+}
+
+.containersearch{
+    width: 100%;    
+}
+
+.containerpost{
+    width: 100%;
+     margin-right: 0px;    
+}
+.card{
+    width: 100%;
+    
+}
+.mainfooter{
+	width: 100%;
+	margin: 2% 0;
+
+}
+.mainfooter p{
+	width: 100%;
+	
+}
+.login-page{
+    width: 100%;
+}
+.register-page{
+    width: 100%;
+}
+.contact-page{
+    width: 100%;
+    margin-top: 22px;
+}
+.form{
+    margin-top:0px;
+}
+.userright{
+    width: 100%
+}
+.userleft{
+    width: 100%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+.containerfooter1{
+     display: flex;
+
+       }
+      .containerfooter1 img{
+        margin-left: 8px;
+        height: 35px;
+        width: 35px; 
+      }
+    
+    .card{
+        width: 100%;
+
+    }
+
+    .contact-page{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .login-page{
+        width: 100%;
+    }
+    .register-page{
+        width: 100%;
+    }
+
+}

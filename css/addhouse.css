@@ -1,0 +1,61 @@
+
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+  }
+  .body{
+    background: var(--mainWhite);
+  }
+ 
+.addhouse{
+    background: var(--mainWhite);
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    padding: 12px;
+
+}
+.addhouse input,select{
+    background: var(--mainGrey);
+	width: 100%;
+    border: 1px solid #999;   
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px; 
+
+}
+.addhouse h5{
+	text-align: left;
+    font-size: 14px;	    
+}
+.addhouse p{
+	text-align: left;
+	font-size: 15px;
+	text-transform: uppercase;	    
+}
+
+.addhouse button{
+   
+    text-transform: uppercase;
+    background: var(--primaryColor);
+    width: 100%;
+    padding: 9px;
+    color: var(--mainBlack);
+    font-size: 14px;
+    cursor: pointer;
+ 
+}
+.addhouse button:hover{
+   color: var(--mainBlack);
+}
+
+

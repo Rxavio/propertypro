@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROPERTYPRO-LITE</title>
+    <link rel="stylesheet" href="./css/main1.css"/>
+    <link rel="stylesheet" href="./css/details.css"/>
+    <link rel="stylesheet" href="./css/media.css"/>
+
+<body class="body">
+     <!--header property--> 		
+	<header class="mainheader">
+			<nav>
+            <ul>
+                <li> <a class="active" href="index.html">Home</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+                <li> <a href="create.html">register</a></li>
+				<li> <a href="login.html">login</a></li>				
+            </ul>
+        </nav>
+        </header>
+         <!--header property end --> 
+
+        
+  <!--details --> 
+ 
+  <div class="product">
+
+        <div class="img-container">
+         <img id="imageBox" src="./images/house13.jpg">
+        </div>
+
+     
+
+	  <div class="product-small-img">
+      <img src="./images/house13.jpg" onclick="myFunction(this)">
+      <img src="./images/img-2.jpeg" onclick="myFunction(this)">
+      <img src="./images/img-3.jpeg" onclick="myFunction(this)">
+      <img src="./images/img-4.jpeg" onclick="myFunction(this)">
+      <img src="./images/img-5.jpeg" onclick="myFunction(this)">
+      <img src="./images/img-6.jpeg" onclick="myFunction(this)">
+      
+    </div>
+      
+</div>
+
+<div class="containerb">
+      
+    
+             </div>
+
+
+
+ <!--footer end--> 
+
+
+<script>
+	function myFunction(smallImg){
+
+		var fullImg=document.getElementById("imageBox");
+	fullImg.src=smallImg.src;
+	}
+	
+</script>
+</body>
+</html>
